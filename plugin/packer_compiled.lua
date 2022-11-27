@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/home/onions/.local/share/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/home/onions/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/onions/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-solarized-lua"] = {
     loaded = true,
     path = "/home/onions/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua",

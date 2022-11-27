@@ -17,6 +17,8 @@ return require('packer').startup(function()
     use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
       -- treesitter
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  -- lspconfig
+  use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer'}
 
 
 --config = {
