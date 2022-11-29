@@ -6,8 +6,12 @@ lua require('plugin-config/nvim-tree')
 lua require('plugin-config/bufferline')
 lua require('plugin-config/nvim-treesitter')
 lua require('lsp/setup')
-
-
+"代码补全
+lua require('lsp/nvim-cmp')
+"底部栏
+lua require('plugin-config/lualine')
+"模糊查询
+lua require('plugin-config/telescope')
 
 set background=dark
 colorscheme sonokai
